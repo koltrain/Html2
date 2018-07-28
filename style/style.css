@@ -1,0 +1,300 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 550px;
+    background-image: url(photo.png);
+    background-size: cover;
+}
+
+.logo {
+}
+
+.header__logo {
+    margin-top: 25px;
+    margin-left: 50px;
+    float: left;
+}
+
+.head_p {
+    display: inline-block;
+    margin-top: 45px;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.menu {
+    display: flex;
+    float: right;
+    margin-right: 150px;
+    margin-top: 45px;
+    list-style-type: none;
+}
+
+.menu__li_a {
+    text-decoration: none;
+    margin: 8px;
+    font-size: 14px;
+    color: white;
+}
+
+.menu__li_a:hover {
+    color: #998675;
+}
+
+.menu__li_a:active {
+    color: white;
+}
+
+.nav_menu {
+    display: flex;
+    float: right;
+    justify-content: space-between;
+}
+
+.logo2 {
+    margin-top: 45px;
+    margin-right: 25px;
+}
+
+.logo3 {
+    margin-top: 45px;
+    margin-right: 55px;
+}
+
+.welcome {
+    margin: 75px auto;
+    width: 650px;
+    text-align: center;
+    color: white;
+
+}
+
+.welcome_h4 {
+    font-size: 36px;
+}
+
+.welcome_p {
+    font-size: 52px;
+}
+
+.welcome_button {
+    margin-top: 15px;
+    background-color: #998675;
+    border: 0;
+    box-shadow: 0 2px #997457;
+    border-radius: 5px;
+    padding: 15px;
+    color: #ffffff;
+    font-family: Raleway Extrabold;
+}
+
+.welcome_button:hover {
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8) inset,
+    1px 1px 5px rgba(0, 0, 0, 0.4);;
+}
+
+.welcome_button:active {
+    box-shadow: 0 2px 2px rgba(255, 255, 255, 0.8) inset,
+    2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.knees {
+    display: flex;
+    justify-content: center;
+
+    color: #8E8172;
+}
+
+.circ {
+    margin: 10px;
+    text-decoration: none;
+    color: #8E8172;
+
+}
+
+.circ:active {
+    color: #000000;
+}
+
+.circ:hover {
+    color: #000000;
+}
+
+.introduce {
+    background-color: #fff5d4;
+    display: flex;
+    align-content: center;
+    align-items: flex-start;
+}
+
+.intro {
+    text-align: center;
+    width: 250px;
+    margin: 40px auto;
+
+}
+
+.intro h4 {
+    margin: 10px;
+}
+
+.intro_p {
+    display: flex;
+    margin-top: 15px;
+
+}
+
+hr {
+    width: 75px;
+    margin: 50px auto;
+    border-radius: 5px;
+}
+
+.intro:hover {
+
+    opacity: 0.6;
+}
+
+.idea {
+    display: flex;
+    text-align: center;
+    background-color: #ffecb4;
+}
+
+.ideas {
+    margin: 20px auto;
+    width: 450px;
+}
+
+.ideas_p {
+    margin-top: 30px;
+}
+
+.imleft {
+    position: absolute;
+    margin: 132px -550px;
+
+}
+
+.imright {
+    position: absolute;
+    margin: 132px -150px;
+}
+
+.imcenter {
+    position: relative;
+    margin: 50px -350px;
+}
+
+.purchase {
+    float: right;
+    margin-top: -55px;
+    margin-right: 100px;
+    background-color: #998675;
+    border: 0;
+    box-shadow: 0 2px #997457;
+    border-radius: 5px;
+    padding: 8px;
+    color: #ffffff;
+}
+
+.low {
+    background-color: black;
+    height: 75px;
+    margin: -75px auto;
+    color: white;
+}
+
+.low_p {
+    font-size: 14px;
+    margin-left: 40px;
+    opacity: 0.5;
+
+}
+
+.low_art {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.projects {
+    margin-bottom: 50px;
+    margin-top: 75px;
+    background-color: #fff5d4;
+}
+
+.projects_art {
+    margin: auto;
+    text-align: center;
+    width: 550px;
+}
+
+.projects_header {
+    margin-bottom: 15px;
+}
+
+.projects_nav {
+    width: 450px;
+    border: 2px solid black;
+}
+
+.projects_ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.projects_li {
+
+    color: #996f40;
+    border-radius: 5px;
+    border: 1px inset black;
+    padding: 5px;
+    text-decoration: none;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.projects_img {
+    display: grid;
+    grid-template-columns: 180px 180px 180px;
+    grid-template-rows: 180px 195px;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.more {
+
+}
+.more_load{
+    border:1px solid black;
+
+}
+.more_load::-webkit-details-marker {
+    display: none;
+}
+.videos {
+    text-align: center;
+    background-color: #ffecb4;
+}
+.videos1 {
+
+    width: 100%;
+    height: 675px;
+
+}
+
+
+
